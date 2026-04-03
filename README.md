@@ -27,7 +27,7 @@ The visibility polygon is constructed through these core steps:
 1.  **Vertex Collection**: The algorithm identifies all vertices of the obstacles and the four corners of the screen.
 2.  **Ray Casting**: For each vertex, it casts a ray from the mouse position. It calculates the closest intersection point with any obstacle's edge.
 3.  **Angular Sorting**: All resulting intersection points are sorted by their angle relative to the mouse:
-    $$\text{angle} = \operatorname{atan2}(y_{point} - y_{mouse}, x_{point} - x_{mouse})$$
+    $$\text{angle} = \mathrm{atan2}(y_{point} - y_{mouse}, x_{point} - x_{mouse})$$
 4.  **Polygon Rendering**: The sorted points are connected in sequence to form a single, translucent `PShape` representing the visible area.
 
 ## 🛠️ Installation & Usage
