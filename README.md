@@ -6,15 +6,9 @@ A real-time 2D visibility polygon and ray-casting simulation implemented in **Pr
 This project demonstrates how to calculate a visibility field from a single light source (the mouse) in an environment with static rectangular obstacles. The simulation uses **Ray Casting** and **Vertex Scanning** to determine which areas of the 2D space are visible and which are in shadow.
 
 ## 📺 Demo
-<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
-  <tr>
-    <td align="center">
-      <b>1. Visibility Field</b><br>
-      <!-- ADD VIDEO URL BELOW -->
-      <video src="YOUR_VIDEO_URL_HERE" width="100%" autoplay loop muted playsinline></video>
-    </td>
-  </tr>
-</table>
+[VisibilityPolygon](https://github.com/user-attachments/assets/0f09a22f-0b56-4dfd-a4b5-038ac8638539)
+Figure 1: Visibility Polygon Simulation.</em>
+
 
 ## 🚀 Features
 * **Ray Casting with Offsets**: For every vertex, the engine casts 3 rays (the vertex angle and $\pm 0.001$ radians) to correctly "hug" corners and capture the empty space behind them.
