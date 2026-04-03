@@ -7,9 +7,10 @@ This project demonstrates how to calculate a visibility field from a single ligh
 
 ## 📺 Demo
 
-https://github.com/user-attachments/assets/0f09a22f-0b56-4dfd-a4b5-038ac8638539
-
-Figure 1: Visibility Polygon Simulation.</em>
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/0f09a22f-0b56-4dfd-a4b5-038ac8638539" width="100%"></video>
+  <p><em>Figure 1: Visibility Polygon Simulation.</em></p>
+</div>
 
 
 ## 🚀 Features
